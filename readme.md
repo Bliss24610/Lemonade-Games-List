@@ -1,11 +1,11 @@
-# Panda3DS Game Compatibility List
+# Lemonade Game Compatibility List
 
 Anyone is free to update or share their results here, with the following requirements:
-- You **must** use an official master/main build (either latest stable or latest nightly) with any hacks disabled. All mods & cheats of any kind must also be disabled.
+- You **must** use an official release with any hacks disabled. All mods & cheats of any kind must also be disabled.
 - Follow the new issue template and remove any unnecessary text, but **please leave all formatting intact**.
 - Search for a game first before adding a new issue; if you find an existing issue that is out of date, reply to it with a copied/pasted new issue template. A curator will then edit the OP with your test data.
 
-This repository is only for documenting the status of various games. For more technical issues, please use the issues tab in the [main Panda3DS repo](https://github.com/wheremyfoodat/Panda3DS).
+This repository is only for documenting the status of various games. For more technical issues, please use the issues tab in the [main Lemonade repo](https://github.com/Lemonade-emu/Lemonade/).
 
 When you update or add additional information in an issue, please reply to the issue indicating your changes.
 
@@ -17,4 +17,4 @@ When you update or add additional information in an issue, please reply to the i
 - `status-intro` - Boots but only gets to the intro.
 - `status-broken` - Does not boot/show signs of life.
 
-Shoutout to the [Ryujinx](https://github.com/Ryujinx/Ryujinx) team, as this repo is based on the [Ryujinx Games List](https://github.com/Ryujinx/Ryujinx-Games-List).
+Shoutout to the [Panda3ds](https://github.com/wheremyfoodat/Panda3DS) team, as this repo is based on the [Panda3ds Games List](https://github.com/Panda3DS-emu/Panda3DS-Games-List).

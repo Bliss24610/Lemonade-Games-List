@@ -1,5 +1,5 @@
 name: Game Compatibility
-description: Report a game's compatibility status on Panda3DS
+description: Report a game's compatibility status on Lemonade
 body:
   - type: input
     id: game-name
@@ -15,8 +15,8 @@ body:
     attributes:
       label: Hardware Specs (If necessary)
       placeholder: |
-        - ##### CPU: *(e.g. i7-6700)*
-        - ##### GPU: *(e.g. NVIDIA RTX 2070)*
+        - ##### CPU: *(e.g. i7-6700/Snapdragon/Mediatek/etc)*
+        - ##### GPU: *(e.g. NVIDIA RTX 2070/Mali/Adreno/etc)*
     validations:
       required: false
   - type: input
@@ -24,9 +24,9 @@ body:
       required: true
     attributes:
       label: Operating System
-      placeholder: (eg Windows 10, MacOS Big Sur, Ubuntu 20.04...)
+      placeholder: (eg Android 10, Windows 10, MacOS Big Sur, Ubuntu 20.04...)
       description: >
-        The OS of the system you're running Panda3DS on
+        The OS of the system you're running Lemonade on
   - type: textarea
     id: game-state
     attributes:
@@ -51,5 +51,5 @@ body:
     attributes:
       label: Additional information
       description: >-
-        If you have any additional information for us, use the field below. Feel free to share your saves and config.toml if you think it'd help us reproduce and debug your problem.
+        If you have any additional information for us, use the field below. Feel free to share your saves and log file if you think it'd help us reproduce and debug your problem.
         For bugs where a screenshot or video would be useful (eg rendering or audio bugs), please attach one as well.
